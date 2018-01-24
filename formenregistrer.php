@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>  
-     <div class="row">
+    <div class="row">
     <div class="col-md-3"></div>
       <div  class="col-md-6">
         <div class="form-group">
@@ -47,9 +47,9 @@
         </div>
       </div>
     </div>  
-        <div class="row">
-        	<div class="col-md-3"></div>
-        	<div  class="col-md-6">
+    <div class="row">
+    <div class="col-md-3"></div>
+      <div  class="col-md-6">
 				<div class="form-group">
 				  <label class="form-horizontal" for="email" >Email adresse</label>
 				   <input class="form-control" id="email" type="email" placeholder="Enter email" name="" required>	
@@ -74,19 +74,17 @@
           </div>
         </div>
       </div>
-        <br>  
+      <br>  
   		<div class="row" style="padding-top: 1rem">
-           <div class="col-md-3"></div>
-             <div class="col-md-6">
-                <button  style="width: 90px;" type="submit" class="btn btn-info"><i class="fa fa-sign-in"></i>connexion</button>
-                <a class="btn btn-link" href="/password/reset">Forgot Your Password?</a>
-            </div>
+      <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <button  style="width: 90px;" type="submit" class="btn btn-info"><i class="fa fa-sign-in"></i>confirm</button>
         </div>
-	</form>
-      
-    <script src="popper.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.js"></script>
+      </div>
+	</form>   
+  <script src="popper.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.js"></script>
 </body>
 </html>                            
 <!--<nav class="navbar navbar-default">
