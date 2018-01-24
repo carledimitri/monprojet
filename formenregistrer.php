@@ -23,12 +23,30 @@
 <body>
 	<form style="padding-left: 30px;" class="form-horizontal" action="index.php" >
 		<div class="row">
-          <div class="col-md-3"></div>
-            <div class="col-md-6">
-               <h2>connectez-vous</h2>
-                 <hr>
-            </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+       <h2>Enregistrez-vous</h2>
+       <hr>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-3"></div>
+      <div  class="col-md-6">
+        <div class="form-group">
+          <label class="form-horizontal" >Nom</label>
+          <input class="form-control" id="email" type="text" placeholder="Nom" name="" required>  
         </div>
+      </div>
+    </div>  
+     <div class="row">
+    <div class="col-md-3"></div>
+      <div  class="col-md-6">
+        <div class="form-group">
+          <label class="form-horizontal" >premom</label>
+          <input class="form-control" id="email" type="text" placeholder="prenom" name="" required>  
+        </div>
+      </div>
+    </div>  
         <div class="row">
         	<div class="col-md-3"></div>
         	<div  class="col-md-6">
@@ -38,17 +56,25 @@
 				</div>
 			</div>
 		</div>	
-		<div class="row">
-          <div class="col-md-3"></div>
-        	<div  class="col-md-6">
-			  <div class="form-group">
-	   			<label for="pwd">Password:</label>
-	   		 	<input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
+		 <div class="row">
+     <div class="col-md-3"></div>
+       <div  class="col-md-6">
+			   <div class="form-group">
+	   			 <label for="pwd">Password:</label>
+	   		   <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
 	   		  </div>
-	  		 </div>
 	  		</div>
-	  	   
-  			<br>
+	  	</div>
+       <div class="row">
+     <div class="col-md-3"></div>
+       <div  class="col-md-6">
+         <div class="form-group">
+           <label for="pwd">confirm Password:</label>
+           <input type="password" class="form-control" placeholder="confirm password" id="pwd" required>
+          </div>
+        </div>
+      </div>
+        <br>  
   		<div class="row" style="padding-top: 1rem">
            <div class="col-md-3"></div>
              <div class="col-md-6">
