@@ -22,7 +22,7 @@
 </head> 
 <body>
 	<form style="padding-left: 30px;" class="form-horizontal" action="index.php" >
-		   <div class="container ">
+		   <div style="padding-top: 20px;" class="container ">
      <div  class="jumbotron ">
       <div class="row">
       <div class="col-md-3"></div>
@@ -31,7 +31,7 @@
         <hr>
      </div>
     </div>
-    <div class="row">
+    <div style="padding-top: 20px;" class="row">
     <div class="col-md-3"></div>
       <div  class="col-md-6">
         <div class="form-group">
