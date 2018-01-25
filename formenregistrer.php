@@ -22,12 +22,14 @@
 </head> 
 <body>
 	<form style="padding-left: 30px;" class="form-horizontal" action="index.php" >
-		<div class="row">
+		   <div class="container ">
+     <div  class="jumbotron ">
+      <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-       <h2>Enregistrez-vous</h2>
-       <hr>
-      </div>
+        <h2>Enregistrez-vous</h2>
+        <hr>
+     </div>
     </div>
     <div class="row">
     <div class="col-md-3"></div>
@@ -50,21 +52,21 @@
     <div class="row">
     <div class="col-md-3"></div>
       <div  class="col-md-6">
-				<div class="form-group">
-				  <label class="form-horizontal" for="email" >Email adresse</label>
-				   <input class="form-control" id="email" type="email" placeholder="Enter email" name="" required>	
-				</div>
-			</div>
-		</div>	
-		 <div class="row">
+        <div class="form-group">
+          <label class="form-horizontal" for="email" >Email adresse</label>
+           <input class="form-control" id="email" type="email" placeholder="Enter email" name="" required>  
+        </div>
+      </div>
+    </div>  
+     <div class="row">
      <div class="col-md-3"></div>
        <div  class="col-md-6">
-			   <div class="form-group">
-	   			 <label for="pwd">Password:</label>
-	   		   <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
-	   		  </div>
-	  		</div>
-	  	</div>
+         <div class="form-group">
+           <label for="pwd">Password:</label>
+           <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
+          </div>
+        </div>
+      </div>
        <div class="row">
      <div class="col-md-3"></div>
        <div  class="col-md-6">
@@ -75,18 +77,22 @@
         </div>
       </div>
       <br>  
-  		<div class="row" style="padding-top: 1rem">
+      <div class="row" style="padding-top: 1rem">
       <div class="col-md-3"></div>
         <div class="col-md-6">
           <button  style="width: 90px;" type="submit" class="btn btn-info"><i class="fa fa-sign-in"></i>confirm</button>
         </div>
-      </div>
+      </div>             
+    </div>   
+  </div>   
 	</form>   
   <script src="popper.js"></script>
   <script src="jquery.min.js"></script>
   <script src="bootstrap.js"></script>
 </body>
-</html>                            
+</html>  
+  
+             
 <!--<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
